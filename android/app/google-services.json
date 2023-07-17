@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "401183940367",
+    "project_id": "juba-f6799",
+    "storage_bucket": "juba-f6799.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401183940367:android:a1c26a46a7549f1fcc687a",
+        "android_client_info": {
+          "package_name": "com.app.juba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401183940367-stb8g6r95fe12r6ccbc33lob3s8s28i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCNOgsxOK1fxm2dKJQ_sEgkiUozHY7whA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401183940367-stb8g6r95fe12r6ccbc33lob3s8s28i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

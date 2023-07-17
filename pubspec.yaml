@@ -1,0 +1,107 @@
+name: juba
+description: A new Flutter application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter_localizations: # Add this line
+    sdk: flutter
+  flutter:
+    sdk: flutter
+  connectivity_plus: ^2.2.1
+  google_maps_flutter: ^2.1.3
+  cron: ^0.4.0
+  location: ^4.3.0
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.0.9
+  cloud_firestore: ^3.1.8
+  shared_preferences: ^2.0.6
+  flutter_typeahead: ^3.2.1
+  velocity_x: ^3.4.0
+  provider: ^6.0.2
+  firebase_storage: ^10.2.7
+  firebase_auth: ^3.0.1
+  flutter_native_splash: ^2.1.2+1
+  uuid: ^3.0.5
+  firebase_dynamic_links: ^4.0.8
+  translator: ^0.1.7
+  intl: ^0.17.0
+  flutter_launcher_icons: "^0.9.2"
+  flutter_slidable: ^1.2.0
+  url_launcher: ^6.0.20
+  flutter_svg: ^1.0.3
+  responsive_grid: ^2.0.0
+  timeago: ^3.2.2
+  share_plus: ^3.1.0
+  http: ^0.13.4
+  jwt_decoder: ^2.0.1
+  filter_list: ^0.0.1
+  webview_flutter: ^3.0.1
+  get: ^4.6.1
+  fluttertoast: ^8.0.9
+  email_validator: ^2.0.1
+  custom_info_window: ^1.0.1
+  mailto: ^2.0.0
+  appinio_swiper: ^1.0.2
+  modal_bottom_sheet: ^2.0.1
+  searchfield: ^0.6.2
+  odoo_rpc: ^0.4.5
+  dropdown_search: ^2.0.1
+  google_maps_cluster_manager: ^3.0.0+1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/juba_worms_logo.png"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: images/juba_worms_logo.png
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/user.png
+    - images/juba-worms-logo.png
+    - images/juba_worms_logo.png
+    - images/start_pin.png
+    - images/company.png
+    - images/company2.png
+    - images/company3.png
+    - images/company4.png
+    - images/company5.png
+    - images/company6.png
+    - images/company7.png
+    - images/company8.png
+    - images/company9.png
+    - images/companyInfinite.png
+    - images/jubaBack.jpeg
+    - images/juba-worms-logo.svg
+    - images/jubastart.jpeg
+    - images/Drache.svg
+    - images/144.png
+    - images/person.png
+    - images/internet.jpg
+    - images/dom.png
+    - images/germany.png
+    - images/ZZ5H.gif
+    - images/engl.png
+  fonts:
+    - family: AsapCondensed
+      fonts:
+        - asset: fonts/AsapCondensed-Regular.ttf
+flutter_intl:
+  main_locale: de_DE
+  enabled: true
